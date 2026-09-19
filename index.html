@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KETAN KUMAR | Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="bg-layer stars"></div>
+    <div class="bg-layer grid"></div>
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+
+    <canvas id="particles"></canvas>
+    <div class="cursor-glow"></div>
+
+    <header>
+        <nav>
+            <div class="logo">KETAN<span>.</span></div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#certificates">Certificates</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <a href="#contact" class="nav-btn">Let's Talk</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="available">
+                    <span></span>
+                    AVAILABLE FOR OPPORTUNITIES
+                </div>
+                <p class="hello">HELLO, I'M</p>
+                <h1 class="wave-text">
+                    <span>K</span><span>E</span><span>T</span><span>A</span><span>N</span>
+                    <strong>
+                        <span>K</span><span>U</span><span>M</span><span>A</span><span>R</span>
+                    </strong>
+                </h1>
+                <div class="developer-text">
+                    <span id="typing">SOFTWARE DEVELOPER</span>
+                </div>
+                <p class="hero-description">
+                    I'm a BCA student and aspiring Software Developer
+                    passionate about programming, problem-solving and
+                    building practical applications with modern technology.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="primary-btn">
+                        Explore My Work
+                        <span class="arrow-icon">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="7" y1="17" x2="17" y2="7"></line>
+                                <polyline points="7 7 17 7 17 17"></polyline>
+                            </svg>
+                        </span>
+                    </a>
+                    <a href="#contact" class="outline-btn">Contact Me</a>
+                </div>
+                <div class="quick-info">
+                    <div><small>BASED IN</small><b>SIROHI, RAJASTHAN</b></div>
+                    <div><small>EDUCATION</small><b>BCA · MLSU</b></div>
+                    <div><small>SEMESTER</small><b>3RD SEMESTER</b></div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="orbit orbit-three"></div>
+
+                <div class="core">
+                    <div class="core-inner">
+                        <img src="profile.jpg" alt="KETAN KUMAR" class="profile-photo">
+                    </div>
+                </div>
+
+                <div class="floating-card card-one"><span>JAVA</span><b>PROGRAMMING</b></div>
+                <div class="floating-card card-two"><span>SQL</span><b>DATABASE</b></div>
+                <div class="floating-card card-three"><span>C++</span><b>DSA</b></div>
+            </div>
+        </section>
+
+
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <div class="section-heading center">
+                <p>01 / ABOUT</p>
+                <h2>Building ideas<br><span>through code.</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="glass-card about-main neon-border">
+                    <p>I'm <strong>KETAN KUMAR</strong>, a BCA student currently pursuing my degree under MLSU.</p>
+                    <p>I enjoy learning programming, solving problems and transforming ideas into useful applications. My current technical interests include C, C++, Java and SQL.</p>
+                    <p>My long-term goal is to grow as a professional Software Developer and continuously improve my technical skills.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="glass-card stat neon-border"><span>01</span><h3>BCA</h3><p>Current Degree</p></div>
+                    <div class="glass-card stat neon-border"><span>02</span><h3>MLSU</h3><p>University</p></div>
+                    <div class="glass-card stat neon-border"><span>03</span><h3>5+</h3><p>Core Interests</p></div>
+                    <div class="glass-card stat neon-border"><span>04</span><h3>∞</h3><p>Learning Mindset</p></div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SKILLS -->
+        <section id="skills" class="section">
+            <div class="section-heading center">
+                <p>02 / SKILLS</p>
+                <h2>My technical<br><span>arsenal.</span></h2>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card neon-border">
+                    <div class="skill-number">01</div>
+                    <div class="skill-logo">
+                        <svg viewBox="0 0 128 128" width="52" height="52">
+                            <path fill="#A8B9CC" d="M118.4 79.6c0 4.6-.6 8.6-1.9 12-1.3 3.4-3.2 6.3-5.8 8.6-2.6 2.3-5.7 4.1-9.4 5.3-3.7 1.2-7.9 1.8-12.6 1.8h-4.3c-4.7 0-8.9-.6-12.6-1.8-3.7-1.2-6.8-3-9.4-5.3-2.6-2.3-4.5-5.2-5.8-8.6-1.3-3.4-1.9-7.4-1.9-12V48.4c0-4.6.6-8.6 1.9-12 1.3-3.4 3.2-6.3 5.8-8.6 2.6-2.3 5.7-4.1 9.4-5.3 3.7-1.2 7.9-1.8 12.6-1.8h4.3c4.7 0 8.9.6 12.6 1.8 3.7 1.2 6.8 3 9.4 5.3 2.6 2.3 4.5 5.2 5.8 8.6 1.3 3.4 1.9 7.4 1.9 12v4h-17.6v-4.5c0-2.9-.7-5-2.1-6.3-1.4-1.3-3.5-2-6.3-2h-3.6c-2.8 0-4.9.7-6.3 2-1.4 1.3-2.1 3.4-2.1 6.3v32c0 2.9.7 5 2.1 6.3 1.4 1.3 3.5 2 6.3 2h3.6c2.8 0 4.9-.7 6.3-2 1.4-1.3 2.1-3.4 2.1-6.3v-4.5h17.6v4z"/>
+                        </svg>
+                    </div>
+                    <h3>C Programming</h3>
+                    <p>Programming Fundamentals</p>
+                </div>
+
+                <div class="skill-card neon-border">
+                    <div class="skill-number">02</div>
+                    <div class="skill-logo">
+                        <svg viewBox="0 0 128 128" width="52" height="52">
+                            <path fill="#00599C" d="M117.5 33.5l.3-.1c-.3-1.9-1.6-3.6-3.4-4.5L67.5 3.4c-1.6-.8-3.5-.8-5.1 0L15.6 28.9c-1.8.9-3.1 2.6-3.4 4.5l-.3.1v60.9c0 1.8 1 3.4 2.6 4.3l45.9 26.5c.8.5 1.7.7 2.6.7.9 0 1.8-.2 2.6-.7l45.9-26.5c1.6-.9 2.6-2.5 2.6-4.3V33.5z"/>
+                            <path fill="#fff" d="M63 46.5l-13.6 23.6h6.9l2.6-4.9h11.5l2.7 4.9h7L66.2 46.5H63zm-2.3 13.7l3.4-6.3 3.5 6.3h-6.9z"/>
+                            <path fill="#fff" d="M92.3 56.9c-1.3-1.3-3.2-2-5.6-2-2.5 0-4.5.7-6 2.1-1.5 1.4-2.3 3.3-2.3 5.7 0 2.4.7 4.3 2.2 5.7 1.5 1.4 3.5 2.1 6.1 2.1 2.4 0 4.3-.6 5.6-1.9 1.3-1.3 1.9-3 2-5.2h-4.4c-.1 1-.4 1.7-.9 2.2-.5.5-1.3.7-2.3.7-1.1 0-2-.4-2.6-1.1-.6-.7-.9-1.6-.9-2.6 0-1.1.3-2 .9-2.7.6-.7 1.5-1.1 2.6-1.1 1 0 1.7.2 2.3.7.5.5.8 1.2.9 2.2h4.4c-.2-2.2-.9-3.9-2-5.2z"/>
+                            <path fill="#fff" d="M102.6 58.5h-2.9v-3.2h-3.2v3.2h-2.9v3.2h2.9v3.2h3.2v-3.2h2.9v-3.2zm7.3 0h-2.9v-3.2h-3.2v3.2h-2.9v3.2h2.9v3.2h3.2v-3.2h2.9v-3.2z"/>
+                        </svg>
+                    </div>
+                    <h3>C++</h3>
+                    <p>Programming & DSA</p>
+                </div>
+
+                <div class="skill-card neon-border">
+                    <div class="skill-number">03</div>
+                    <div class="skill-logo">
+                        <svg viewBox="0 0 128 128" width="52" height="52">
+                            <path fill="#0074BD" d="M47.6 97.6s-4.8 2.8 3.4 3.7c9.9 1.1 15 .9 25.9-1 0 0 2.9 1.8 6.9 3.4-24.5 10.5-55.4-.6-36.2-6.1z"/>
+                            <path fill="#0074BD" d="M44.9 84.5s-5.4 4 2.8 4.9c10.6 1.1 18.9 1.2 33.3-1.6 0 0 2 2 5.1 3.1-29.5 8.6-62.3.7-41.2-6.4z"/>
+                            <path fill="#0074BD" d="M73.4 61.7c6 6.9-1.6 13.2-1.6 13.2s15.3-7.9 8.3-17.8c-6.6-9.2-11.6-13.7 15.6-29.5 0 0-42.6 10.6-22.3 34.1z"/>
+                            <path fill="#EA2D2E" d="M108.8 107.5s3.6 2.9-3.9 5.2c-14.2 4.3-59.2 5.6-71.7.2-4.5-2 3.9-4.7 6.6-5.3 2.8-.6 4.4-.5 4.4-.5-5-3.5-32.5 7-14 9.9 50.6 8.2 92.2-3.7 78.6-9.5z"/>
+                            <path fill="#0074BD" d="M49.9 69.3s-23 5.5-8.1 7.4c6.3.8 18.8.6 30.5-.3 9.5-.8 19.1-2.6 19.1-2.6s-3.4 1.4-5.8 3.1c-23.4 6.2-68.8 3.3-55.8-3 11-5.3 20.1-4.6 20.1-4.6z"/>
+                            <path fill="#0074BD" d="M91.7 92.4c23.8-12.4 12.8-24.3 5.1-22.7-1.9.4-2.7.7-2.7.7s.7-1.1 2-1.5c15.2-5.3 26.8 15.7-4.9 24.1 0 0 .4-.3.5-.6z"/>
+                            <path fill="#EA2D2E" d="M77.6 0s13.2 13.2-12.5 33.4c-20.6 16.2-4.7 25.4 0 36-12-10.8-20.8-20.3-14.9-29.2C58.7 27.3 81.3 21 77.6 0z"/>
+                            <path fill="#0074BD" d="M52.4 123.9c22.9 1.5 58-1.1 58.8-11.5 0 0-1.6 4-18.9 7.2-19.5 3.6-43.5 3.2-57.7.9 0 0 3 2.4 17.8 3.4z"/>
+                        </svg>
+                    </div>
+                    <h3>Java</h3>
+                    <p>Application Development</p>
+                </div>
+
+                <div class="skill-card neon-border">
+                    <div class="skill-number">04</div>
+                    <div class="skill-logo">
+                        <svg viewBox="0 0 128 128" width="52" height="52">
+                            <ellipse cx="64" cy="30" rx="42" ry="16" fill="#00758F"/>
+                            <path fill="#F29111" d="M22 30v34c0 8.8 18.8 16 42 16s42-7.2 42-16V30c0 8.8-18.8 16-42 16S22 38.8 22 30z"/>
+                            <ellipse cx="64" cy="64" rx="42" ry="16" fill="#00758F"/>
+                            <path fill="#F29111" d="M22 64v34c0 8.8 18.8 16 42 16s42-7.2 42-16V64c0 8.8-18.8 16-42 16S22 72.8 22 64z"/>
+                            <ellipse cx="64" cy="98" rx="42" ry="16" fill="#00758F"/>
+                        </svg>
+                    </div>
+                    <h3>SQL</h3>
+                    <p>Database Management</p>
+                </div>
+
+                <div class="skill-card neon-border">
+                    <div class="skill-number">05</div>
+                    <div class="skill-logo">
+                        <svg viewBox="0 0 128 128" width="52" height="52">
+                            <rect x="10" y="70" width="14" height="45" fill="#26A69A"/>
+                            <rect x="30" y="50" width="14" height="65" fill="#26A69A"/>
+                            <rect x="50" y="30" width="14" height="85" fill="#26A69A"/>
+                            <rect x="70" y="45" width="14" height="70" fill="#EF5350"/>
+                            <rect x="90" y="20" width="14" height="95" fill="#26A69A"/>
+                            <line x1="8" y1="115" x2="120" y2="115" stroke="#ffe39a" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Trading</h3>
+                    <p>Stock Market Interest</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- CERTIFICATES -->
+        <section id="certificates" class="section">
+            <div class="section-heading center">
+                <p>03 / CERTIFICATES</p>
+                <h2>Learning that<br><span>keeps growing.</span></h2>
+            </div>
+
+            <div class="certificate-grid">
+
+                <button class="certificate-card neon-border" onclick="openCertificate('java')">
+                    <div class="certificate-top">
+                        <span>CERTIFICATE / 01</span>
+                        <b>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ffe39a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="7" y1="17" x2="17" y2="7"></line>
+                                <polyline points="7 7 17 7 17 17"></polyline>
+                            </svg>
+                        </b>
+                    </div>
+                    <div class="certificate-icon">
+                        <svg viewBox="0 0 128 128" width="60" height="60">
+                            <path fill="#0074BD" d="M47.6 97.6s-4.8 2.8 3.4 3.7c9.9 1.1 15 .9 25.9-1 0 0 2.9 1.8 6.9 3.4-24.5 10.5-55.4-.6-36.2-6.1z"/>
+                            <path fill="#0074BD" d="M44.9 84.5s-5.4 4 2.8 4.9c10.6 1.1 18.9 1.2 33.3-1.6 0 0 2 2 5.1 3.1-29.5 8.6-62.3.7-41.2-6.4z"/>
+                            <path fill="#0074BD" d="M73.4 61.7c6 6.9-1.6 13.2-1.6 13.2s15.3-7.9 8.3-17.8c-6.6-9.2-11.6-13.7 15.6-29.5 0 0-42.6 10.6-22.3 34.1z"/>
+                            <path fill="#EA2D2E" d="M108.8 107.5s3.6 2.9-3.9 5.2c-14.2 4.3-59.2 5.6-71.7.2-4.5-2 3.9-4.7 6.6-5.3 2.8-.6 4.4-.5 4.4-.5-5-3.5-32.5 7-14 9.9 50.6 8.2 92.2-3.7 78.6-9.5z"/>
+                            <path fill="#0074BD" d="M49.9 69.3s-23 5.5-8.1 7.4c6.3.8 18.8.6 30.5-.3 9.5-.8 19.1-2.6 19.1-2.6s-3.4 1.4-5.8 3.1c-23.4 6.2-68.8 3.3-55.8-3 11-5.3 20.1-4.6 20.1-4.6z"/>
+                            <path fill="#0074BD" d="M91.7 92.4c23.8-12.4 12.8-24.3 5.1-22.7-1.9.4-2.7.7-2.7.7s.7-1.1 2-1.5c15.2-5.3 26.8 15.7-4.9 24.1 0 0 .4-.3.5-.6z"/>
+                            <path fill="#EA2D2E" d="M77.6 0s13.2 13.2-12.5 33.4c-20.6 16.2-4.7 25.4 0 36-12-10.8-20.8-20.3-14.9-29.2C58.7 27.3 81.3 21 77.6 0z"/>
+                            <path fill="#0074BD" d="M52.4 123.9c22.9 1.5 58-1.1 58.8-11.5 0 0-1.6 4-18.9 7.2-19.5 3.6-43.5 3.2-57.7.9 0 0 3 2.4 17.8 3.4z"/>
+                        </svg>
+                    </div>
+                    <h3>Java Programming</h3>
+                    <p>Java Programming for Beginners</p>
+                    <small>CLICK TO VIEW CERTIFICATE ↗</small>
+                </button>
+
+                <button class="certificate-card neon-border" onclick="openCertificate('sql')">
+                    <div class="certificate-top">
+                        <span>CERTIFICATE / 02</span>
+                        <b>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ffe39a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="7" y1="17" x2="17" y2="7"></line>
+                                <polyline points="7 7 17 7 17 17"></polyline>
+                            </svg>
+                        </b>
+                    </div>
+                    <div class="certificate-icon">
+                        <svg viewBox="0 0 128 128" width="60" height="60">
+                            <ellipse cx="64" cy="30" rx="42" ry="16" fill="#00758F"/>
+                            <path fill="#F29111" d="M22 30v34c0 8.8 18.8 16 42 16s42-7.2 42-16V30c0 8.8-18.8 16-42 16S22 38.8 22 30z"/>
+                            <ellipse cx="64" cy="64" rx="42" ry="16" fill="#00758F"/>
+                            <path fill="#F29111" d="M22 64v34c0 8.8 18.8 16 42 16s42-7.2 42-16V64c0 8.8-18.8 16-42 16S22 72.8 22 64z"/>
+                            <ellipse cx="64" cy="98" rx="42" ry="16" fill="#00758F"/>
+                        </svg>
+                    </div>
+                    <h3>Introduction to SQL</h3>
+                    <p>SQL for Beginners</p>
+                    <small>CLICK TO VIEW CERTIFICATE ↗</small>
+                </button>
+
+            </div>
+        </section>
+
+
+        <!-- CERTIFICATE MODAL -->
+        <div id="certificateModal" class="certificate-modal">
+            <div class="certificate-modal-content">
+                <button class="certificate-close" onclick="closeCertificate()">✕</button>
+
+                <div id="javaCert" class="certificate-full">
+                    <div class="cert-border">
+                        <div class="cert-inner">
+                            <p class="cert-subtitle">CERTIFICATE OF COMPLETION</p>
+                            <h1 class="cert-name">KETAN KUMAR</h1>
+                            <p class="cert-text">has successfully completed the online course:</p>
+                            <h2 class="cert-course">Java Programming for Beginners</h2>
+                            <p class="cert-desc">
+                                This professional has demonstrated initiative and a commitment
+                                to deepening their skills and advancing their career. Well done!
+                            </p>
+                            <div class="cert-footer">
+                                <div>
+                                    <p class="cert-date">7th August 2026</p>
+                                    <p class="cert-code">Certificate code: 10567694</p>
+                                </div>
+                                <div class="cert-sign">
+                                    <p class="sign-text">B.R</p>
+                                    <p class="sign-name">Krishna Kumar</p>
+                                    <p class="sign-role">CEO, Simplilearn</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="sqlCert" class="certificate-full" style="display:none;">
+                    <div class="cert-border">
+                        <div class="cert-inner">
+                            <p class="cert-subtitle">CERTIFICATE OF COMPLETION</p>
+                            <h1 class="cert-name">KETAN KUMAR</h1>
+                            <p class="cert-text">has successfully completed the online course:</p>
+                            <h2 class="cert-course">Introduction to SQL</h2>
+                            <p class="cert-desc">
+                                This professional has demonstrated initiative and a commitment
+                                to deepening their skills and advancing their career. Well done!
+                            </p>
+                            <div class="cert-footer">
+                                <div>
+                                    <p class="cert-date">19th September 2026</p>
+                                    <p class="cert-code">Certificate code: 10752448</p>
+                                </div>
+                                <div class="cert-sign">
+                                    <p class="sign-text">B.R</p>
+                                    <p class="sign-name">Krishna Kumar</p>
+                                    <p class="sign-role">CEO, Simplilearn</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+            <div class="section-heading center">
+                <p>04 / PROJECTS</p>
+                <h2>Things I'm<br><span>building.</span></h2>
+            </div>
+            <div class="project-card neon-border">
+                <div class="project-number">01</div>
+                <div class="project-content">
+                    <p>IN DEVELOPMENT</p>
+                    <h3>My First Projects</h3>
+                    <span>Projects will be added here as I build and complete them.</span>
+                </div>
+                <div class="project-arrow">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#ffe39a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="7" y1="17" x2="17" y2="7"></line>
+                        <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- EDUCATION -->
+        <section id="education" class="section">
+            <div class="section-heading center">
+                <p>05 / EDUCATION</p>
+                <h2>My learning<br><span>journey.</span></h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content neon-border">
+                        <small>CURRENT</small>
+                        <h3>Bachelor of Computer Applications</h3>
+                        <p>MLSU</p>
+                        <span>3rd Semester · BCA</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CONTACT -->
+        <section id="contact" class="section contact-section">
+            <div class="contact-box neon-border">
+                <p class="contact-label">06 / CONTACT</p>
+                <h2>Let's build<br><span>something.</span></h2>
+                <p>Have an opportunity, idea or simply want to connect? Feel free to reach out.</p>
+
+                <div class="contact-links">
+                    <a href="mailto:ketanmali692@gmail.com">
+                        <span>EMAIL</span><b>ketanmali692@gmail.com</b>
+                        <i><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ffe39a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></i>
+                    </a>
+                    <a href="tel:7014910653">
+                        <span>PHONE</span><b>7014910653</b>
+                        <i><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ffe39a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></i>
+                    </a>
+                    <a href="https://wa.me/917014910653?text=Hello%20Ketan%2C%20I%20visited%20your%20portfolio." target="_blank">
+                        <span>WHATSAPP</span><b>Send me a message</b>
+                        <i><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ffe39a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ketan-mali-5a3556420" target="_blank">
+                        <span>LINKEDIN</span><b>Connect with me</b>
+                        <i><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ffe39a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></i>
+                    </a>
+                    <a href="https://github.com/ketanmali692" target="_blank">
+                        <span>GITHUB</span><b>View my code</b>
+                        <i><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#ffe39a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="footer-logo">KETAN<span>.</span></div>
+        <p>Designed & Built by KETAN KUMAR</p>
+        <p>© 2026 All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
