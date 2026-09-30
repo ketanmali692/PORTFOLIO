@@ -1,5 +1,5 @@
 /* =========================================
-   KETAN KUMAR - 3D PROFESSIONAL PORTFOLIO
+   KETAN MALI - 3D PROFESSIONAL PORTFOLIO
    JavaScript - Animations & Interactions
    ========================================= */
 
@@ -14,6 +14,7 @@ const words = [
     "SOFTWARE DEVELOPER",
     "JAVA PROGRAMMER",
     "C++ PROGRAMMER",
+    "PYTHON DEVELOPER",
     "SQL LEARNER",
     "TECH ENTHUSIAST"
 ];
@@ -89,7 +90,7 @@ if (heroVisual) {
    ========================================= */
 
 const tiltCards = document.querySelectorAll(
-    ".skill-card, .glass-card, .project-card, .timeline-content, .certificate-card"
+    ".skill-card, .glass-card, .timeline-content, .certificate-card"
 );
 
 tiltCards.forEach(card => {
@@ -380,7 +381,7 @@ window.addEventListener("load", function () {
    ========================================= */
 
 console.log(
-    "%c KETAN KUMAR ",
+    "%c KETAN MALI ",
     "background:#d8b45a;color:#050505;font-size:18px;font-weight:bold;padding:8px;"
 );
 
